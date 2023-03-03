@@ -26,3 +26,14 @@ let oneNumber
 while (isNaN(twoNumber) || twoNumber == '') {
   oneNumber = prompt('Enter a number');
 };
+
+while (isNaN(twoNumber) || twoNumber == '') {
+  twoNumber = prompt('Введите Второе число: ');
+  if (isNaN(twoNumber)) alert(twoNumber + " - это не число");
+}
+if (oneNumber >= 20 ){
+  alert('Too high');
+}
+else{
+  alert('Thank you');
+}
