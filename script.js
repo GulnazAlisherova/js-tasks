@@ -1,5 +1,5 @@
 // let oneNumber;
-// let twoNumber;
+let twoNumber;
 // while (isNaN(oneNumber) || oneNumber == '') {
 //   oneNumber = prompt('Введите Первое число: ');
 //   if (isNaN(oneNumber)) alert(oneNumber + " - это не число");
@@ -21,3 +21,8 @@
 //   alert('числа равны');
 // }
 let oneNumber
+
+
+while (isNaN(twoNumber) || twoNumber == ''){
+  oneNumber= prompt ('Enter a number');
+};
