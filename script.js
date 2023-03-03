@@ -23,6 +23,6 @@ let twoNumber;
 let oneNumber
 
 
-while (isNaN(twoNumber) || twoNumber == ''){
-  oneNumber= prompt ('Enter a number');
+while (isNaN(twoNumber) || twoNumber == '') {
+  oneNumber = prompt('Enter a number');
 };
