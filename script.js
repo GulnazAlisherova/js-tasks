@@ -40,3 +40,5 @@
 // if (oneNumber === twoNumber) {
 //   alert('числа равны');
 // }
+
+let firstNumber;
