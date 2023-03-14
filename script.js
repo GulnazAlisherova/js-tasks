@@ -41,8 +41,6 @@
 //   alert('числа равны');
 // }
 
-
-
 const fancyList = document.querySelector(".fancy-list");
 
 fetch("https://jsonplaceholder.typicode.com/todos")
@@ -93,7 +91,6 @@ fetch("https://go-apod.herokuapp.com/apod")
     img.width = 300;
     astroPhoto.append(img);
   });
-
 const randomDog = document.querySelector("#random-dog");
 fetch("https://dog.ceo/api/breeds/image/random")
   .then((response) => response.json())
@@ -105,7 +102,6 @@ fetch("https://dog.ceo/api/breeds/image/random")
     img.width = 300;
     randomDog.append(img);
   });
-
 // при нажатии на кнопку "Угадать возраст"
 document.querySelector("#guess-age").addEventListener("click", function () {
   // получаем имя из поля ввода
@@ -118,7 +114,6 @@ document.querySelector("#guess-age").addEventListener("click", function () {
       document.querySelector("#age").textContent = data.age;
     });
 });
-
 // при нажатии на кнопку "Угадать возраст"
 document.querySelector("#guess-age").addEventListener("click", function () {
   // получаем имя из поля ввода
@@ -131,7 +126,6 @@ document.querySelector("#guess-age").addEventListener("click", function () {
       document.querySelector("#age").textContent = data.age;
     });
 });
-
 document.querySelector("#guess-country").addEventListener("click", function () {
   const name = document.querySelector("#name").value;
   fetch("https://api.nationalize.io/?name=" + name)
